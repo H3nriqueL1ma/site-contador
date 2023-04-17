@@ -1,0 +1,64 @@
+body {
+  background-color: #1E90FF;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+header {
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+section {
+  background-color: white;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+section #content {
+  text-align: left;
+}
+section #content input {
+  position: relative;
+  left: 10px;
+  width: 20%;
+}
+section #content #end {
+  left: 22px;
+}
+section #content #step {
+  left: 4px;
+}
+section #content #button {
+  position: relative;
+  width: 27%;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+section #content #button:hover {
+  transform: scale(1.1);
+  background-color: #1E90FF;
+  color: white;
+}
+
+#button-start {
+  position: relative;
+  width: 5%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#button-start:hover {
+  transform: scale(1.1);
+  color: white;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
